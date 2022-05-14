@@ -292,7 +292,7 @@ body {
 	width: 100%;
 	border: 2px solid #0156FF;
 	border-radius: 50px;
-	padding: 0 40px;
+	padding: 10px 40px;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 1.2;
@@ -395,7 +395,7 @@ body {
 	color: #fff;
 	background-color: #0156FF;
 	min-height: 50px;
-	padding: 0 50px;
+	padding: 10px 50px;
 	border-radius: 50px;
 }
 
