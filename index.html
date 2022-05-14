@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="css/style.css">
+	<title>L16. Form</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="page">
+			<div class="container-does-not-relate-to-the-form">
+				<form class="summary-form summary-form_style" action="#">
+					<h3 class="summary-form__title">Summary</h3>
+					<p class="summary-form__action">Estimate Shipping and Tax</p>
+					<p class="summary-form__text">Enter your destination to get a shipping estimate.</p>
+					<div class="summary-form__inputs">
+						<h4 class="summary-form__signature">Country</h4>
+						<select name="select-4" class="summary-form__select">
+							<option value="1" class="summary-form__option">Austria</option>
+							<option value="2" class="summary-form__option">Norway</option>
+							<option value="3" class="summary-form__option">Portugal</option>
+							<option value="4" class="summary-form__option">Japan</option>
+						</select>
+						<h4 class="summary-form__signature">State/Province</h4>
+						<input type="text" name="form" placeholder="" class="input-field">
+						<h4 class="summary-form__signature">Zip/Postal Code</h4>
+						<input type="text" name="form" placeholder="" class="input-field">
+					</div>
+					<div class="summary-form__radiobuttons">
+						<h4 class="summary-form__signature">Standard Rate</h4>
+						<div class="summary-form__radiobutton">
+							<input type="radio" name="rate" id="rate-1" class="summary-form__radio">
+							<label class="summary-form__label" for="rate-1">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+						</div>
+						<h4 class="summary-form__signature">Pickup from store</h4>
+						<div class="summary-form__radiobutton">
+							<input type="radio" name="rate" id="rate-2" class="summary-form__radio">
+							<label class="summary-form__label" for="rate-2">1234 Street Adress City Address, 1234 $0.00</label>
+						</div>
+					</div>
+					<div class="summary-form__inputs">
+						<p class="summary-form__action">Apply Discount CodeE</p>
+						<h4 class="summary-form__signature">Enter discount code</h4>
+						<input type="text" name="form" placeholder="" class="input-field">
+					</div>
+					<button type="submit" class="summary-form__button">Apply Discount</button>
+				</form>
+			</div>
+			<div class="container-does-not-relate-to-the-form">
+				<form action="#" class="customers-form customers-form_style" method="post">
+					<h3 class="customers-form__title">Registered Customers</h3>
+					<p class="customers-form__hint">If you have an account, sign in with your email address.</p>
+					<div class="customers-form__input-box">
+						<h4 class="customers-form__signature-field">Email</h4>
+						<input required type="text" name="input" placeholder="Your Name" class="customers-form__input">
+						<h4 class="customers-form__signature-field">Password</h4>
+						<input required type="password" name="input" placeholder="Your Name" class="customers-form__input">
+					</div>
+					<div class="customers-form__btn-box">
+						<button class="customers-form__button" type="submit">Sign In</button>
+						<a href="#" class="customers-form__link">Forgot Your Password?</a>
+					</div>
+				</form>
+			</div>
+			<div class="container-does-not-relate-to-the-form">
+				<form class="form-car form-car_style" action="#" method="post">
+					<div class="form-car__title">Make an appointment</div>
+					<div class="form-car__items">
+						<div class="form-car__item">
+							<input class="form-car__input" tabindex="1" id="name-1" required name="form-car__input-1" value="" type="text" placeholder="Name">
+						</div>
+						<div class="form-car__item">
+							<input class="form-car__input" tabindex="2" id="name-2" required name="form-car__input-2" value="" type="email" placeholder="Email">
+						</div>
+						<div class="form-car__item">
+							<input class="form-car__input" tabindex="3" id="name-3" required name="form-car__input-3" value="" type="tel" placeholder="Phone Number">
+						</div>
+						<div class="form-car__item">
+							<select class=" form-car__select" tabindex="4" name="select">
+								<option class="form-car__option" value="1">Option-1</option>
+								<option class="form-car__option" value="2">Option-2</option>
+								<option class="form-car__option" value="3">Option-3</option>
+								<option class="form-car__option" value="4">Option-4</option>
+								<option class="form-car__option" value="5">Option-5</option>
+							</select>
+						</div>
+					</div>
+					<textarea class="form-car__textarea" tabindex="5" name="form-car__textarea-1" placeholder="Tell us about your puppers include his/her name"></textarea>
+					<button tabindex="6" type="submit" class="form-car__button">Make an Appointment</button>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+</body>
+
+</html>
