@@ -501,6 +501,7 @@ body {
 
 .form-car__textarea {
 	width: 100%;
+	max-width: 100%;
 	min-height: 180px;
 	max-height: 200px;
 	background-color: transparent;
